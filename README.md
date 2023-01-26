@@ -2,6 +2,10 @@
 mini reddit
   
 :construction: Project in progress :construction:
+
+a [project](https://www.theodinproject.com/lessons/ruby-on-rails-micro-reddit) from [The Odin Project](https://www.theodinproject.com/)'s Ruby on rails course
+
+![image](https://user-images.githubusercontent.com/26731448/214969063-8871e875-3bac-49a3-94d1-1324e4f30e1e.png)
 </h1>
 
 <div align="center">
