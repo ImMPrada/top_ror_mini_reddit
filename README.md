@@ -1,24 +1,15 @@
-# README
+<h1 align="center">
+mini reddit
+  
+:construction: Project in progress :construction:
+</h1>
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+<h2 align="left">
+db model
+</h2>
 
-Things you may want to cover:
+<h2 align="left">
+trying validations
+</h2>
 
-* Ruby version
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
