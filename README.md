@@ -7,7 +7,7 @@ mini reddit
 <div align="center">
 You would need to allow users to be on the site (don’t worry about login/logout or securing the divasswords right now), to submit links (“posts”), and to comment on links. Users do NOT need to be able to comment on comments… each comment refers to a Post.
 
-</br>
+<br>
 
 a <a href="https://www.theodinproject.com/lessons/ruby-on-rails-micro-reddit">project</a> from <a href="https://www.theodinproject.com/">The odin project</a>'s Ruby on rails course
   
