@@ -29,9 +29,11 @@ User model
 invalid
 </h4>
 
-![image](https://user-images.githubusercontent.com/26731448/214912600-d73bbae4-3d09-4625-b59e-6873e9f4b3de.png)
+<h2 align="left">
+db model
+</h2>
 
-![image](https://user-images.githubusercontent.com/26731448/214912808-04b3a15b-4dee-4fb2-8e2f-ff7e6e234aad.png)
+![image](https://user-images.githubusercontent.com/26731448/214967324-671b6dce-b1fc-40e0-8607-601f23421ba2.png)
 
 ![image](https://user-images.githubusercontent.com/26731448/214917331-6031494b-5f2a-4e44-a065-0d7b4b213008.png)
 
