@@ -8,11 +8,13 @@ mini reddit
 You would need to allow users to be on the site (don’t worry about login/logout or securing the divasswords right now), to submit links (“posts”), and to comment on links. Users do NOT need to be able to comment on comments… each comment refers to a Post.
 </div>
 
-<div align="left">
-
-<h2>
+<h2 align="left>
 db model
 </h2>
+
+<img width="597" alt="image" src="https://user-images.githubusercontent.com/26731448/214967324-671b6dce-b1fc-40e0-8607-601f23421ba2.png">
+
+<div align="left">
 
 <h2>
 trying validations
