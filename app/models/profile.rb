@@ -1,5 +1,7 @@
 class Profile < ApplicationRecord
   belongs_to :user, dependent: :destroy
+  has_many :posts, dependent: :destroy
+  has_many :comments
 
   validates :username, presence: true, uniqueness: true,
                        length: {
