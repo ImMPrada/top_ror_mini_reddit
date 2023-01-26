@@ -23,6 +23,18 @@ def build_a_quote
   ].sample
 end
 
+def build_a_comment
+  [
+    Faker::Quote.famous_last_words,
+    Faker::Quote.jack_handey,
+    Faker::Quote.matz,
+    Faker::Quote.most_interesting_man_in_the_world,
+    Faker::Quote.robin,
+    Faker::Quote.singular_siegler,
+    Faker::Quote.yoda
+  ].sample
+end
+
 def create_posts
   puts 'creating posts...'
 
@@ -42,6 +54,28 @@ def create_posts
   puts 'posts created!'
 end
 
+def create_comments
+  puts 'creating comments...'
+
+  30.times do
+    profile = Profile.all.sample
+    post = Post.all.sample
+
+    puts "creating a comment by #{profile.username}"
+    puts "on post #{post.id} from: #{post.profile.username}"
+
+    comment = Comment.create(
+      content: build_a_comment,
+      profile:,
+      post:
+    )
+
+    puts "comment #{comment.id} created!"
+  end
+
+  puts 'comments created!'
+end
+
 puts 'WANT TO ADD 10 MORE USERS?(yY/nN)'
 more_users = gets.chomp
 
@@ -53,7 +87,7 @@ if more_users.downcase == 'y' || User.all.empty?
     email = build_email(name)
     username = build_username(name)
 
-    next if User.find_by(email:) || name.size < 3 || name.size > 20 
+    next if User.find_by(email:) || name.size < 3 || name.size > 20
 
     user = User.create(email:)
 
@@ -69,12 +103,10 @@ if more_users.downcase == 'y' || User.all.empty?
   puts 'users created!'
 end
 
-
 puts 'WANT TO MAKE 5 RANDOM POSTS FROM RANDOM USERS?(yY/nN)'
 more_posts = gets.chomp
 
 if more_posts.downcase == 'y' || Post.all.empty?
   create_posts
+  create_comments
 end
-
-
