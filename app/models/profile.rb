@@ -3,11 +3,11 @@ class Profile < ApplicationRecord
 
   validates :username, presence: true, uniqueness: true,
                        length: {
-                         in: 3..10,
-                         wrong_length: 'must be between 3 and 10 characters'
+                         in: 3..20,
+                         wrong_length: 'must be between 3 and 20 characters'
                        },
                        format: {
-                         with: /[^-\s]/,
-                         message: "doesn't allow spaces"
+                         with: /\A[a-z\d]*\Z/i,
+                         message: "allows only numbers and letters"
                        }
 end
