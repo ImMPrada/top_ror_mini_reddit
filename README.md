@@ -29,12 +29,6 @@ User model
 invalid
 </h4>
 
-<h2 align="left">
-db model
-</h2>
-
-![image](https://user-images.githubusercontent.com/26731448/214967324-671b6dce-b1fc-40e0-8607-601f23421ba2.png)
-
 ![image](https://user-images.githubusercontent.com/26731448/214917331-6031494b-5f2a-4e44-a065-0d7b4b213008.png)
 
 
